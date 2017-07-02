@@ -1,0 +1,17 @@
+- File system operations
+  - files are visible (file list is not empty)
+  - new file, upload, download works
+  - drag and drop works
+  - right click context menu works
+  - generating parser works
+  - creating folder works
+- Sample parsing works (zip)
+- Converter panel works (every value is filled)
+- Error panel works (open .ksy w/ other binary file) / it's closable
+- Import works
+  - relative import to a subfolder works
+- About webide works / remember closing it for ever
+- Hex viewer operations
+  - mouse range selection works
+  - deselect works
+- Info panel works (TODO)
