@@ -15,4 +15,4 @@
   - mouse range selection works
   - deselect works
 - Info panel works (TODO)
-- Works after cleaning storage
+- Works in incognito mode (w/ empty storage)
