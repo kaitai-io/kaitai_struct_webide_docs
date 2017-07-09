@@ -17,3 +17,6 @@
 - Info panel works (TODO)
 - Works in incognito mode (w/ empty storage)
 - Two-way sync works between object tree and hex view
+- Proper warning without JS
+- Works in supported browsers 
+  - Proper warning for unsupported browser
