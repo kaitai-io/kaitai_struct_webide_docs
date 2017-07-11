@@ -14,9 +14,15 @@
 - Hex viewer operations
   - mouse range selection works
   - deselect works
+  - Two-way sync works between object tree and hex view
 - Info panel works (TODO)
 - Works in incognito mode (w/ empty storage)
-- Two-way sync works between object tree and hex view
 - Proper warning without JS
 - Works in supported browsers 
   - Proper warning for unsupported browser
+- Object tree
+  - Can handle big files
+    - Instances loaded lazily
+    - Big arrays are split into smaller chunks (max 100 items in a level)
+  - Two-way sync works between object tree and hex view
+  - Open nodes are reopened after modifying source .ksy / reloading IDE
